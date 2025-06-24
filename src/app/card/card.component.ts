@@ -9,4 +9,15 @@ import { CardButtonComponent } from "../card-button/card-button.component";
 })
 export class CardComponent {
 
+  
+
+  plano = {
+    infos: {
+      tipo: 'Simples',
+      preco: 100,
+
+    }
+  }
+  
+  
 }

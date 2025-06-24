@@ -9,4 +9,14 @@ import { CardRoxoButtonComponent } from "../card-roxo-button/card-roxo-button.co
 })
 export class CardRoxoComponent {
 
+  
+  plano = {
+    infos: {
+      tipo: 'Completo',
+      preco: 250,
+
+    }
+  }
+  
+
 }
