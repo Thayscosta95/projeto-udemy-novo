@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.card{
+    max-width:350px;
+    background-color: #fd7557;
+    border-radius: 25px;
+    padding: 30px;
+    font-family: 'Roboto' , sans-serif;
+}
+
+.card__item{
+    padding: 10px;
+}
+.card__plan{
+    font-size: 22px;
+}
+.card__price{
+    font-weight: 600;
+    font-size: 40px;
+}
+
