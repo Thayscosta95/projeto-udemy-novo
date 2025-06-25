@@ -1,10 +1,16 @@
 import { Component } from '@angular/core';
 import { CardButtonComponent } from "../card-button/card-button.component";
 import { CardButtonCancelComponent } from '../card-button-cancel/card-button-cancel.component';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+
 
 @Component({
   selector: 'app-card',
-  imports: [CardButtonComponent, CardButtonCancelComponent],
+  imports: [
+    CardButtonComponent,
+    CardButtonCancelComponent,
+    MatSlideToggleModule
+  ],
   templateUrl: './card.component.html',
   styleUrl: './card.component.css'
 })
